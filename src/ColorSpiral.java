@@ -10,7 +10,7 @@ public class ColorSpiral {
 		Robot steve=new Robot();
 		steve.setSpeed(10);
 		steve.penDown();
-
+		
 		for(int i=0;i<=74;i++){
 		steve.turn(120);
 		steve.move(5*i);
