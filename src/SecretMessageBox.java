@@ -9,8 +9,10 @@ public class SecretMessageBox {
 		//3.Check if the answers match the real password and user name
 		if(userName.equals("Esme") && usersPassword.equals("AmIRightOrAmIRight?!") ){
 		//4.If user's answers match, show a secret message
-			JOptionPane.showMessageDialog(null, "I've been expecting you!");
+		 JOptionPane.showMessageDialog(null, "I've been expecting you! Are you ready to begin your training!?");
+		
 		}
+		
 		//5.If it doesn't, pop up: INTRUDER!
 		else{
 			JOptionPane.showMessageDialog(null, "INTRUDER ALERT!!");
